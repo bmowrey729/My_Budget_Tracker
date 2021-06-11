@@ -45,3 +45,17 @@
   <script src="index.js"></script>
 </body>
 </html>
+<script>
+  //Open database
+  const request = indexedDB.open("budgetdb", 1);
+  request.onsuccess = event => {
+    console.log ("RESULT:", request.result);
+    console.log(request.result.name);
+  };
+
+    request.onupgradeneeded = ( { target }) => {
+      const db =  target.result;
+      const objectStore = db.createObjectStore("budgetdb");
+    };
+ 
+</script>
