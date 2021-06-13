@@ -13,4 +13,4 @@ This project is a Online/Offline Budget Tracker.
 
 [URL] (https://github.com/bmowrey729/My_Budget_Tracker/)
 
-![Screen Shot ](public/assets/myBudget.PNG)
+![Screen Shot ](public/assets/MyBudget.PNG)
